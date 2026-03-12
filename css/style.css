@@ -1,0 +1,29 @@
+.accordion-button:focus {
+    border-color: transparent;
+    box-shadow: none;
+}
+.accordion-item {
+    border: none;
+    margin-bottom: 20px;
+}
+.accordion-button {
+    background: linear-gradient(90deg, #710a71, #000000);
+    color: rgb(255, 255, 255);
+}
+.accordion-button:not(.collapsed) {
+    color: rgb(255, 255, 255);
+    background: linear-gradient(90deg, #0d05ff, #b806ff);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+}
+.accordion-body {
+    background: linear-gradient(90deg, #00bbff9d , #0ab925b0);
+}
+.modal-header {
+    background: linear-gradient(90deg, #ff7a05, #b806ff);
+}
+.modal-dialog{
+    max-width: 600px;
+}
+.py-5{
+    background: linear-gradient(90deg, #000000, #3c00ff);
+}
